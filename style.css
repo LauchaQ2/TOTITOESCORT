@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(0,255,14);
+    background: linear-gradient(90deg, rgba(0,255,14,1) 0%, rgba(0,0,0,1) 49%, rgba(0,212,255,1) 100%);    text-align: center;
+}
+img{
+    margin-top: 50px;
+}
+nav{
+    margin: 0;
+    background-color: black;
+}
+ul{ 
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+section{
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+.listaservicio{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color: white;
+}
+
+@media (max-width: 600px) {
+.img{
+    width: 400px;
+}  }
